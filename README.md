@@ -1,20 +1,36 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Group Sports Activities API
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Introduction
+The project aims to create an API that facilitates the organization of group sports activities. The system aims to streamline the process of planning and managing sports meetings, as well as to facilitate communication between participants. It was created as part of a collaborative engineering project.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Technology Used
+- .NET 7.0
+- Entity Framework
+- MSSQL
+- SignalR
+- Cloudinary
+- Hangfire
+- MailKit
+- Clean Architecture
+- CQRS with MediatR
+- Fluent Validation
+- AutoMapper
+- JWT token Auth
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Key Features
+- Custom Authorization/Authentication with JWT tokens
+- Real-time chat using SignalR
+- Achievement system with the use of Hangfire
+- Mail Notifications
+- Entities management by CRUD methods
+- Middleware to handle exceptions
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Contributors
+
+### .NET API:
+- [Patryk Ruczkin](https://github.com/pdruczkin)
+- Marek Schubert
+
+### React app:
+- Piotr Zięba
+- [Michał Sternik](https://github.com/michal-sternik)
